@@ -1,0 +1,131 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+    }
+}
+
+.container-fluid.custom-container {
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
+.feature-card {
+    border: 1px solid grey;
+    text-align: center;
+    background-color: #eeeeee;
+    vertical-align: middle;
+    width: 20em;
+}
+
+.feature-card:hover {
+    background-color: #dddddd;
+    cursor: pointer;
+}
+
+/*------------------------------*/
+/*FOOTER*/
+/*------------------------------*/
+
+footer{
+    font-size:80%;
+    background-color: #343a40;
+    color: #fff;
+    height: 30vh;
+    max-height: 130px;
+    min-height: 100px;
+    padding: 2%;
+    margin: 0;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+
+
+
+.footer-nav{
+    float:left;
+}
+
+.social-links{
+    float:right;
+}
+
+
+footer li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child{
+    margin-right: 0px;
+}
+
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited
+{
+    color: #9d9d9d;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active
+{
+
+    color: #e2e2e2;
+}
+
+footer ion-icon{
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.social-links li a:link,
+.social-links li a:visited
+{
+    font-size:150%
+}
+
+ion-icon[name="logo-facebook"]:hover{
+    color: #3b5998;
+
+}
+
+ion-icon[name="logo-googleplus"]:hover{
+    color: #dd4b39;
+
+}
+
+ion-icon[name="logo-twitter"]:hover{
+    color: #55acee;
+
+}
+
+ion-icon[name="logo-instagram"]:hover{
+    color: #e95950;
+
+}
+
+
+footer p{
+    color: #9d9d9d;
+    text-align: center;
+    margin-top:1.5%;
+}
