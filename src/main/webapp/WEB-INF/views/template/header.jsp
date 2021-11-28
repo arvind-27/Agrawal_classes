@@ -101,10 +101,10 @@
                             <c:otherwise>
                                 <ul class="navbar-nav mr-4">
                                     <li class="nav-item mr-2">
-                                        <a class="nav-link" href="/user/login">Login</a>
+                                        <a class="nav-link" href="/user/login"><div class="btn btn-secondary">Login</div></a>
                                     </li>
                                     <li class="nav-item mr-2">
-                                        <a class="nav-link" href="/user/register">Register</a>
+                                        <a class="nav-link" href="/user/register"><div class="btn btn-secondary">Register</div></a>
                                     </li>
                                 </ul>
                             </c:otherwise>
@@ -114,7 +114,7 @@
             </div>
         </nav>
     </header>
-    <nav aria-label="breadcrumb">
+    <nav aria-label="breadcrumb" class="mt-3">
         <ol class="breadcrumb" style="margin-bottom: 0;">
         </ol>
     </nav>
@@ -136,3 +136,4 @@
             </div>
         </c:if>
     </div>
+</body>

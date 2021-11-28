@@ -97,7 +97,7 @@ public class StudentDaoImpl implements StudentDao {
      */
     @Override
     public void update(Student student) {
-        String sql = "UPDATE Student SET gender = ?, dateOfBirth = ?, houseNumber = ?, street = ?, city = ?, state = ? "
+        String sql = "UPDATE Student SET gender = ?, dateOfBirth = ?, houseNumber = ?, street = ?, city = ?, state = ?, "
                 + "schoolAttending = ? WHERE studentId = ?";
         template.update(sql, student.getGender(), student.getDateOfBirth(), student.getHouseNumber(),
                 student.getStreet(), student.getCity(), student.getState(),

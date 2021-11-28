@@ -5,7 +5,7 @@
     <!-- FOOTER -->
     <footer style="font-size: 15px; background-color: ${rolecolor};">
         <p class="float-right" style="color: white;"><a href="#" style="color: lightblue;">Back to top</a></p>
-        <p style="color: white;">&copy; 2020 Agrawal Classes, Inc. &middot; Designed by Arvind Agrawal. &middot;
+        <p style="color: white;">&copy; 2021 Agrawal Classes, Inc. &middot; Designed by Arvind Agrawal. &middot;
             <a href="/privacy-policy" style="color: lightblue;">Privacy Policy</a> &middot;</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
